@@ -7,23 +7,26 @@
               android:padding="8dp">
 
     <EditText
-            android:id="@+id/etu_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="联系人姓名"/>
+        android:id="@+id/etu_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="联系人姓名"
+        android:textSize="24sp" />
 
     <EditText
-            android:id="@+id/etu_phoneNum"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="联系方式"
-            android:inputType="number"/>
+        android:id="@+id/etu_phoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="联系方式"
+        android:inputType="number"
+        android:textSize="24sp" />
 
     <Button
-            android:id="@+id/btn_save"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="保存"/>
+        android:id="@+id/btn_save"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="保存"
+        android:textSize="24sp" />
 
 </LinearLayout>

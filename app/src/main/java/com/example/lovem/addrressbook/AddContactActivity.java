@@ -3,6 +3,7 @@ package com.example.lovem.addrressbook;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
@@ -26,6 +27,10 @@ public class AddContactActivity extends AppCompatActivity implements View.OnClic
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        ActionBar actionBar=getSupportActionBar();
+        if (actionBar!=null){
+            actionBar.hide();
+        }
         setContentView(R.layout.add_contact);
         btnSave = findViewById(R.id.btn_save);
 
